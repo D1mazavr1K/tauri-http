@@ -21,7 +21,7 @@ android = { level = "none", notes = "" }
 ios = { level = "none", notes = "" }
 
 [build-dependencies]
-tauri-plugin = { "2.0.0", features = ["build"] }
+tauri-plugin = {  version =  "2.0.0", features = ["build"] }
 schemars = "0.8"
 serde = { version = "1", features = ["derive"] }
 url = "2"
